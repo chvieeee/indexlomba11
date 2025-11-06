@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pendaftaran</title>
+
+  <style>
+    body {
+      background-color: #add8e6 ; /* Warna biru sangat gelap */
+      font-family: 'Courier New', Courier, monospace;
+      color: #ffffff; /* Warna abu-abu terang untuk teks */
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background-color: #2d3748; /* Warna abu-abu gelap untuk konten */
+      border: 1px solid #4a5568;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      background-color: #4a5568;
+      overflow: hidden;
+    }
+    nav ul li {
+      float: left;
+    }
+    nav ul li a {
+      display: block;
+      color: #e2e8f0;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      background-color: #718096;
+    }
+    table {
+      width: 100%;
+    }
+    th, td {
+      padding: 10px;
+    }
+    th {
+      background-color: #2d3748;
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+
+<body>
+
+<form action =""">
+
+
+<table align = center cellpadding = 5 cellspacing = 5>
+<h1 align = center> Formulir Pendaftaran </h1> </font>
+	<ul>
+        <li><a href="indexlomba.html">Informasi</a></li>
+        <li><a href="daftar.html">Pendaftaran</a></li>
+        <li><a href="jadwal.html">Jadwal & Aturan</a></li>
+	</ul>
+		
+	<tr>
+<td> Nama Tim <br> </td>
+<td> : </td>
+<td> <input type = text name = name> </td>
+	</tr>
+	
+	<tr>
+<td> Asal Universitas/Sekolah <br> </td>
+<td> : </td>
+<td> <input type = text name = asal> </td>
+	</tr>
+	
+	<tr>
+      <td>Jenis Kelamin</td>
+      <td> : </td>
+	  
+        <td><select name="jenis_kelamin">
+          <option value="laki-laki">Laki-laki</option>
+          <option value="perempuan">Perempuan</option>
+        </select></td>
+    </tr>
+
+	<tr>
+<td> Nama Ketua Tim <br> </td>
+<td> : </td>
+<td> <input type = text name = Ketua> </td>
+	</tr>
+	
+	<tr>
+        <td> <label for="berkas">Upload Kartu Tanda Mahasiswa </label> </td>
+        <td> : </td>
+		<td> <input type="file" id="berkas" name="berkas" accept=".zip" required> </td>
+    </tr>
+	
+	<tr>
+	<td> Persetujuan </td>
+	<td> : </td>
+	<td><label>
+  <input type="checkbox" name="persetujuan" required>
+  Kami menyetujui semua syarat dan ketentuan yang berlaku.
+</label></td>
+	
+	<tr>
+	<td colspan = "3" style = "text-align:center;">
+	<input type =submit value = "Kirim pendaftaran">
+	</td>
+	</tr>
+	
+<h2>Alur Pendaftaran</h2>
+<ol>
+  <li>Isi formulir dengan data yang benar.</li>
+  <li>Upload berkas yang diperlukan dalam satu file .zip.</li>
+  <li>Tunggu email konfirmasi dari panitia.</li>
+  <li>Gabung ke grup Discord yang link-nya ada di email.</li>
+</ol>
+</table>
+<table>
+<h2>Detail Kategori Lomba</h2>
+  <tr>
+    <th>Kategori</th>
+    <th>Teknologi yang Diizinkan</th>
+  </tr>
+  <tr>
+    <td>Web Development</td>
+    <td>HTML, CSS, JavaScript (Framework Bebas)</td>
+  </tr>
+  <tr>
+    <td>Mobile Apps</td>
+    <td>Kotlin/Java (Android) atau Swift (iOS)</td>
+  </tr>
+  <tr>
+    <td>Data Science</td>
+    <td>Python (Pandas, Scikit-learn)</td>
+  </tr>
+</table>
+</body>
+</html>
