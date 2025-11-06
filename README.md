@@ -3,11 +3,8 @@
 Website sederhana untuk menampilkan informasi resmi tentang lomba koding.
 
 ## 📄 Halaman Website
-- **indexlomba.html** – Informasi lomba
-- **daftar.html** – Formulir pendaftaran
-- **jadwal.html** – Jadwal dan aturan lomba
-
-## 🚀 Cara Menjalankan
-1. Clone repositori:
-   ```bash
-   git clone https://github.com/username/lomba-koding-2025.git
+<ul>
+        <li><a href="indexlomba.html">Informasi</a></li>
+        <li><a href="daftar.html">Pendaftaran</a></li>
+        <li><a href="jadwal.html">Jadwal & Aturan</a></li>
+</ul>
